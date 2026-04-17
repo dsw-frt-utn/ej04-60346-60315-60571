@@ -5,10 +5,13 @@ domain\Responsable.class
 domain\Vehiculo.class
 views\AgregarVehiculoView$1.class
 views\ListarVehiculosView$1.class
+views\MenuPrincipalView$3.class
 domain\VehiculoElectrico.class
 views\Controlador.class
+views\MenuPrincipalView$2.class
 views\AgregarVehiculoView$2.class
 app\Program.class
+views\MenuPrincipalView$1.class
 views\VehiculoViewModel.class
 views\ListarVehiculosView.class
 views\AgregarVehiculoView.class
@@ -18,3 +21,4 @@ domain\Sucursal.class
 views\AgregarVehiculoView$4.class
 views\ListarVehiculosView$2.class
 domain\VehiculoTipo.class
+views\MenuPrincipalView.class
