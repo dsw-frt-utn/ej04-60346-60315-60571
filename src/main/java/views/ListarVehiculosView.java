@@ -16,7 +16,7 @@ public class ListarVehiculosView extends javax.swing.JFrame {
         initComponents();
         listarVehiculos();
     }
-    private void listarVehiculos(){
+    public void listarVehiculos(){
         ArrayList<VehiculoViewModel> vehiculos = Controlador.getVehiculos();
         vehiculosGrid.setModel(new DefaultTableModel(new Object[][] {}, 
             new String[] { "Patente","Vehículo", "Tipo", "Sucursal", "Cap.Carga", "Km/litro", "Año", "Litros extra", "Km a recorrer" }));
