@@ -37,7 +37,9 @@ public abstract class Vehiculo {
      public Marca getMarca(){
         return marca;
     }
-     
+     public String getModelo(){
+        return modelo;
+    }
     public String getCodigoSucursal(){
         return sucursal.getCodigo();
     }
